@@ -4,7 +4,8 @@ import PropTypes from 'prop-types'
 
 class AvatarSelector extends React.Component {
     static propTypes = {
-        selectAvatar: PropTypes.func.isRequired
+        selectAvatar: PropTypes.func.isRequired,
+        age: '18'
     }
 
     constructor(props) {
